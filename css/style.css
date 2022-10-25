@@ -1,0 +1,107 @@
+*¨{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 6%;
+    cursor: pointer;
+    margin: 30px 0 ;
+}
+.encabezado{
+    font-style: italic;
+    font-family: "sst",Arial,sans-serif;
+    font-size: 230%;
+}
+.menu-icon{
+    width: 35px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14;
+}
+nav ul li a:hover{
+    color: rgb(23, 79, 199)
+}
+h2{
+    font-weight: 300;
+    text-align: center;
+    color: rgb(23, 79, 199)
+    }
+.presentacion{
+    width: 70%;
+    position: relative;
+    bottom: 15px;
+    left: 15%;
+    }
+
+
+
+    /* FOOTER */
+.container-footer{
+    box-sizing: border-box;
+    overflow: hidden; 
+    }
+.navbar-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+footer nav ul li{
+    list-style: none;
+    display: block;
+    margin-right: 30px ;
+    }
+
+.facebook{
+    width: 12%;
+    cursor: pointer;
+    margin: 30px 0 ;
+}
+.instagram{
+    width: 12%;
+    cursor: pointer;
+    margin: 30px 0 ;
+}
+.twitter{
+    width: 12%;
+    cursor: pointer;
+    margin: 30px 0 ;
+}
+.whatsapp{
+    width: 12%;
+    cursor: pointer;
+    margin: 30px 0 ;
+}
+
+
+
+
+
+
+section div{
+    display: flex;
+}
